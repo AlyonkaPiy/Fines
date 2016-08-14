@@ -9,5 +9,6 @@
     <color name="TextWhite">#ffffff</color>
     <color name="GreenButton">#5ca50c</color>
 
+    <color name="GreyLine">#7e7e7e</color>
 
 </resources>

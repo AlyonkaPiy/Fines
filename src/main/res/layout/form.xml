@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:background="@color/GreyBackground"
+    android:weightSum="1"
+    android:touchscreenBlocksFocus="false">
 
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="156dp">
+        android:layout_height="156dp"
+        android:layout_gravity="center_horizontal">
     <Button
         style="@style/AppTheme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
         android:text="@string/buttonHelp"
         android:id="@+id/ButtonHelp"
-
+        android:textColor="@color/TextDarkBlue"
         android:background="@android:color/transparent"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"
+       />
 
     <ImageView
     android:layout_width="wrap_content"
@@ -35,15 +39,25 @@
         android:text="@string/title1"
         android:id="@+id/text1"
         android:textColor="@color/TextDarkBlue"
-        android:layout_weight="0.36" />
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center" />
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine" />
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title2"
         android:id="@+id/text2"
-         />
+        android:background="@color/TextWhite"
+        android:singleLine="true"
+        android:textAlignment="center" />
 
     <EditText
         android:layout_width="match_parent"
@@ -51,15 +65,28 @@
         android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/number_p"
+        android:background="@color/TextWhite"
          />
-
+    <View
+        android:id="@+id/SplitLine_hor2"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine" />
+    <View
+        android:id="@+id/SplitLine_hor12"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine"
+        android:layout_marginTop="20dp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title3"
         android:id="@+id/text3"
-         />
+
+        android:background="@color/TextWhite"
+        android:textAlignment="center" />
 
     <EditText
         android:layout_width="match_parent"
@@ -68,32 +95,57 @@
         android:ems="10"
         android:id="@+id/money"
         android:layout_gravity="center_horizontal"
-         />
-
+        android:background="@color/TextWhite"/>
+    <View
+        android:id="@+id/SplitLine_hor3"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine" />
+    <View
+        android:id="@+id/SplitLine_hor31"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine"
+        android:layout_marginTop="20dp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title4"
         android:id="@+id/text4"
-        />
+
+        android:background="@color/TextWhite"
+        android:singleLine="false"
+        android:textAlignment="center" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/name"
+        android:background="@color/TextWhite"
         />
-
+    <View
+        android:id="@+id/SplitLine_hor4"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine" />
+    <View
+        android:id="@+id/SplitLine_hor41"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine"
+        android:layout_marginTop="20dp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/title5"
         android:id="@+id/text5"
-         />
+
+        android:background="@color/TextWhite"
+        android:textAlignment="center" />
 
     <EditText
         android:layout_width="match_parent"
@@ -101,8 +153,13 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/email"
+        android:background="@color/TextWhite"
          />
-
+    <View
+        android:id="@+id/SplitLine_hor5"
+        android:layout_width="match_parent"
+        android:layout_height= "1dp"
+        android:background="@color/GreyLine" />
 
 
         <ImageView
@@ -110,14 +167,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/prt_form"
             android:src="@drawable/prtnrs_form"
-
-            android:layout_gravity="center_horizontal" />
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
 
     <Button
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="@color/TextWhite"
+        android:background="@color/GreenButton"
         android:text="@string/buttonNext"
-        android:id="@+id/buttonNext" />
+        android:id="@+id/buttonNext"
+        android:textSize="20dp"/>
 
 
 </LinearLayout>

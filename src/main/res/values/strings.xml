@@ -7,4 +7,10 @@
     <string name="title4">ФИО нарушителя(из постановления)</string>
     <string name="title5">Мейл(для уведомлении о погашении)</string>
     <string name="buttonNext">Продолжить</string>
+    <string name="buttonThanks">Спасибо!</string>
+    <string name="title6">Благодарим!</string>
+    <string name="title7">Оплата прошла успешно</string>
+    <string name="title8">Мы пришлём вам уведомление</string>
+    <string name="title9">когда штраф будет погашен</string>
+    <string name="title10">Обычно штраф погашается в течении 3-х банковских дней</string>
 </resources>
