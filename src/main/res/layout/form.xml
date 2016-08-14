@@ -4,21 +4,22 @@
     android:layout_height="match_parent"
     android:background="@color/GreyBackground"
     android:weightSum="1"
-    android:touchscreenBlocksFocus="false">
+    >
 
     <LinearLayout
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="156dp"
         android:layout_gravity="center_horizontal">
     <Button
-        style="@style/AppTheme"
-        android:layout_width="76dp"
-        android:layout_height="32dp"
+
+        android:layout_width="80dp"
+        android:layout_height="35dp"
         android:text="@string/buttonHelp"
         android:id="@+id/ButtonHelp"
         android:textColor="@color/TextDarkBlue"
         android:background="@android:color/transparent"
         android:layout_gravity="right"
+        android:textSize="10dp"
        />
 
     <ImageView
