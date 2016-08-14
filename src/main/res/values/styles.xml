@@ -11,7 +11,7 @@
 
 
 
-    <style name="ThemeFines">
+    <style name="ThemeFines"  parent="ThemeOverlay.AppCompat.Dark">
 
 
 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GreyBackground"
+    style="@style/AppTheme">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="top|right">
+
+
+    
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHelp"
+        android:id="@+id/ButtonHelp2"
+        android:textColor="@color/TextDarkBlue"
+        android:background="@android:color/transparent"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:textAlignment="center">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_form1"
+        android:src="@drawable/logo_form"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+    <TextView
+
+        style="@style/AppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title6"
+        android:id="@+id/text6"
+        android:textColor="@color/TextDarkBlue"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center" />
+    
+</LinearLayout>
