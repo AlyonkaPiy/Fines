@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fines</string>
+    <string name="title1">Введите данные из постановления</string>
+    <string name="buttonHelp">Помощь</string>
+    <string name="title2">Серия и номер постановления</string>
+    <string name="title3">Сумма штрафа</string>
+    <string name="title4">ФИО нарушителя(из постановления)</string>
+    <string name="title5">Мейл(для уведомлении о погашении)</string>
+    <string name="buttonNext">Продолжить</string>
+</resources>
