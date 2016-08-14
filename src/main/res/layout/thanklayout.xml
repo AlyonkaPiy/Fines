@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         >
 
-    </LinearLayout>
+
 
     <Button
         android:layout_width="wrap_content"
@@ -19,10 +19,9 @@
         android:text="@string/buttonHelp"
         android:id="@+id/ButtonHelp2"
         android:textColor="@color/TextDarkBlue"
-        android:background="@android:color/transparent"
         android:layout_gravity="right"
         android:textSize="18sp"
-        android:textAlignment="center">
+       >
 
     </Button>
 
@@ -33,5 +32,6 @@
     android:src="@drawable/logo_form"
     android:layout_gravity="center_horizontal" />
 
+    </LinearLayout>
 
 </LinearLayout>

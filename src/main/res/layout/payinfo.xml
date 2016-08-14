@@ -18,7 +18,7 @@
             android:id="@+id/text22"
             android:background="@color/TextWhite"
             android:singleLine="true"
-            android:textAlignment="center" />
+             />
 
         <EditText
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:id="@+id/text32"
 
             android:background="@color/TextWhite"
-            android:textAlignment="center" />
+             />
 
         <EditText
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
 
             android:background="@color/TextWhite"
             android:singleLine="false"
-            android:textAlignment="center" />
+            />
 
         <EditText
             android:layout_width="match_parent"
@@ -77,7 +77,7 @@
             android:id="@+id/text52"
 
             android:background="@color/TextWhite"
-            android:textAlignment="center" />
+            />
 
         <EditText
             android:layout_width="match_parent"
