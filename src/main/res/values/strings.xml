@@ -13,4 +13,16 @@
     <string name="title8">Мы пришлём вам уведомление</string>
     <string name="title9">когда штраф будет погашен</string>
     <string name="title10">Обычно штраф погашается в течении 3-х банковских дней</string>
+    <string name="payInfo1">Назначение:</string>
+    <string name="payInfo2">Постановление:</string>
+    <string name="payInfo3">Нарушитель:</string>
+    <string name="payInfo4">Итого к оплате*:</string>
+    <string name="payInfo5">* С учётом сервесного сбора (5%) </string>
+    <string name="buttonPay">Оплатить штраф</string>
+    <string name="buttonInstructions">Инструкция</string>
+    <string name="buttonAppreciate">Оценить</string>
+    <string name="questions">По всем вопросам:</string>
+    <string name="TermsOfUse">Пользовательское соглашение</string>
+    <string name="support">при поддерждке</string>
+    <string name="copyright">© 2015-2016</string>
 </resources>

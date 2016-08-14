@@ -4,34 +4,117 @@
     android:layout_height="match_parent"
     android:background="@color/GreyBackground"
     style="@style/AppTheme">
-
     <LinearLayout
-        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ButtonHelp"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:background="@drawable/help_button_stroke_background"
+            android:text="@string/buttonHelp"
+            android:textColor="@color/TextDarkBlue"
+            android:textSize="8dp" />
+
+        <ImageView
+            android:id="@+id/logo_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_form" />
+    </LinearLayout>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        >
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title6"
+        android:textColor="@color/Black"
+        android:id="@+id/text6"
+        android:layout_gravity="center_horizontal" />
 
-
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/buttonHelp"
-        android:id="@+id/ButtonHelp2"
-        android:textColor="@color/TextDarkBlue"
-        android:layout_gravity="right"
-        android:textSize="18sp"
-       >
-
-    </Button>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:text="@string/title7"
+        android:id="@+id/text7"
+        android:layout_gravity="center_horizontal" />
 
     <ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/logo_form1"
-    android:src="@drawable/logo_form"
-    android:layout_gravity="center_horizontal" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_success"
+        android:src="@drawable/ic_success"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"/>
 
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="18dp"
+        android:text="@string/title8"
+        android:id="@+id/text8"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="18dp"
+        android:text="@string/title9"
+        android:id="@+id/text9"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/title10"
+        android:id="@+id/text10"
+        android:textColor="@color/Black"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/prt_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/prtnrs_form" />
+
+    <Button
+
+        android:id="@+id/buttonThanks"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/GreenButton"
+        android:text="@string/buttonThanks"
+        android:textColor="@color/TextWhite"
+        android:textSize="20dp" />
 
 </LinearLayout>
