@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PayInfo"></activity>
+        <activity android:name=".Thanks"></activity>
+        <activity android:name=".Help"></activity>
     </application>
 
 </manifest>
