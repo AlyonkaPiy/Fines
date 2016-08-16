@@ -2,13 +2,12 @@ package fineaapp.finesapp;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MainActivity extends Activity implements View.OnClickListener {
 
     EditText number_p;
     EditText money;
@@ -33,17 +32,34 @@ public class MainActivity extends Activity implements View.OnClickListener{
         buttonNext.setOnClickListener((View.OnClickListener) this);
 
     }
-
-
     @Override
-    public void onClick(View view) {
-        Intent intent = new Intent(this, PaiInfo.class);
-        startActivityForResult(intent, 1);
+    public void onClick(View v) {
+        Intent intent;
+
+        switch (v.getId()) {
+            case R.id.buttonHelp:
+                intent = new Intent(MainActivity.this, Help.class);
+                startActivity(intent);
+                break;
+            case R.id.buttonNext:
+                intent = new Intent(MainActivity.this, PayInfo.class);
+                //startActivityForResult(intent, 1);
+
+                intent.putExtra("number", number_p.getText().toString());
+                intent.putExtra("money", money.getText().toString());
+                intent.putExtra("name", name.getText().toString());
+                intent.putExtra("email", email.getText().toString());
+                startActivity(intent);
+                break;
+        }
+
+
     }
 
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (data == null) {return;}
-        String name = data.getStringExtra("name");
-        name.setText();
-    }
+
+
+
+
+
+
 }

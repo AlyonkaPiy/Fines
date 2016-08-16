@@ -27,7 +27,10 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:ems="10"
-            android:id="@+id/number_p"
+            android:text="Оплата штрафа"
+            android:textSize="21dp"
+            android:textColor="@color/TextDarkBlue"
+            android:id="@+id/function"
             android:background="@color/TextWhite"
             />
 
@@ -46,7 +49,9 @@
             android:layout_height="wrap_content"
             android:inputType="numberSigned"
             android:ems="10"
-            android:id="@+id/act"
+            android:id="@+id/number_p"
+            android:textColor="@color/TextDarkBlue"
+            android:textSize="21dp"
             android:layout_gravity="center_horizontal"
             android:background="@color/TextWhite"/>
 
@@ -65,7 +70,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:ems="10"
+            android:textColor="@color/TextDarkBlue"
+            android:textSize="21dp"
+            android:ems="20"
             android:id="@+id/name"
             android:background="@color/TextWhite"
             />
@@ -85,7 +92,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:ems="10"
+            android:textColor="@color/TextDarkBlue"
+            android:textSize="21dp"
+            android:ems="20"
             android:id="@+id/email"
             android:background="@color/TextWhite"
             />
@@ -97,7 +106,7 @@
         android:layout_height="wrap_content"
 
         android:text="*  *  *"
-        android:id="@+id/textView"
+        android:id="@+id/tView"
         android:layout_gravity="left|center_horizontal"
         android:layout_marginLeft="10dp" />
 
@@ -108,7 +117,7 @@
         android:text="@string/payInfo4"
         android:id="@+id/pay_info4"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="70dp" />
+        android:layout_marginTop="60dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -116,8 +125,10 @@
         android:inputType="numberDecimal"
         android:ems="10"
         android:id="@+id/money_final"
+        android:textColor="@color/TextDarkBlue"
+        android:textSize="30dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="80dp" />
+        android:layout_marginBottom="62dp" />
 
     <TextView
         android:layout_width="wrap_content"

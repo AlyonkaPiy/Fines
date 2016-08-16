@@ -164,6 +164,7 @@
         android:layout_height="wrap_content"
         android:background="@color/TextWhite"
         android:ems="10"
+
         android:inputType="textEmailAddress" />
 
     <View
