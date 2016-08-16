@@ -19,7 +19,7 @@
             android:layout_gravity="right"
             android:background="@drawable/help_button_stroke_background"
             android:text="@string/buttonHelp"
-            android:textColor="@color/TextDarkBlue"
+            android:textColor="@color/TextWhite"
             android:textSize="8dp" />
 
         <ImageView

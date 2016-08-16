@@ -15,13 +15,13 @@
         <Button
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
-            android:id="@+id/ButtonHelp"
+            android:id="@+id/buttonHelp"
             android:layout_width="60dp"
             android:layout_height="20dp"
             android:layout_gravity="right"
             android:background="@drawable/help_button_stroke_background"
             android:text="@string/buttonHelp"
-            android:textColor="@color/TextDarkBlue"
+            android:textColor="@color/TextWhite"
             android:textSize="8dp" />
 
         <ImageView
