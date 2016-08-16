@@ -43,13 +43,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.buttonNext:
                 intent = new Intent(MainActivity.this, PayInfo.class);
-                //startActivityForResult(intent, 1);
-
-                intent.putExtra("number", number_p.getText().toString());
-                intent.putExtra("money", money.getText().toString());
-                intent.putExtra("name", name.getText().toString());
-                intent.putExtra("email", email.getText().toString());
-                startActivity(intent);
+                PaymentData data=new PaymentData();
+                data.setSerialNumber(number_p.getText().toString());
+                data.setAmountOfMoney(Float.valueOf(money.getText().toString()));
+                data.setEmail(email.getText().toString());
+                data.setName(name.getText().toString());
+                PayInfo.start(this,data);
                 break;
         }
 
